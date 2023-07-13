@@ -1,15 +1,26 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import {  computed } from 'vue'
+import { useCounterStore } from './../stores/counter'
+
+const counter = useCounterStore()
+
+function increaseCount() {
+  counter.increment()
+}
+
+const count = computed(() => {
+  return counter.count
+})
+
 
 defineProps<{ msg: string }>()
 
-const count = ref(0)
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
   <div class="card">
-    <Button type="button" @click="count++">Count is {{ count }}</Button>
+    <Button type="button" @click="increaseCount()">Count is {{ count }}</Button>
     <p>
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
