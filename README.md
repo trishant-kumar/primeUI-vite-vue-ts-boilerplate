@@ -1,10 +1,10 @@
 ![Logo](https://www.simform.com/wp-content/uploads/2022/12/logo.svg)
 
-# Vue 3 + Ant Design + Storybook + Vite + Pinia Boilerplate
+# Vue 3 + PrimeVue + Storybook + Vite + Pinia + Husky Boilerplate
 
-This template should help get you started developing with Vue 3 in Vite, Ant Design, Storybook, Vite, Pinia. You can directly start development without spending time on project setup.
+This template should help get you started developing with Vue 3 in Vite, PrimeVue, Storybook, Vite, Pinia. You can directly start development without spending time on project setup.
 
-The stack of this boilerplate is focused on web app front end, therefore I’ll keep it simple and mainly focuses on following technologies - Vue 3, Vite, Pinia, Ant Design, Storybook.
+The stack of this boilerplate is focused on web app front end, therefore I’ll keep it simple and mainly focuses on following technologies - Vue 3, Vite, Pinia, PrimeVue, Storybook, Husky.
 
 # Things to update before start
 
@@ -20,19 +20,19 @@ The stack of this boilerplate is focused on web app front end, therefore I’ll 
 ## Tech Stack
 
 **Client:** [Vue3](https://vuejs.org/), [Javascript](https://www.javascript.com/), [Vite](https://vitejs.dev/), [Vuetify3](https://vuetifyjs.com/en/),  [Vue router](https://router.vuejs.org/), [Pinia](https://pinia.vuejs.org/),
- [Storybook](https://storybook.js.org/docs/vue/get-started/install), [Ant Design](https://antdv.com/docs/vue/introduce)
+ [Storybook](https://storybook.js.org/docs/vue/get-started/install), [PrimeVue](https://primevue.org/)
 
 **Code Formatter** [Eslint](https://eslint.org/)
 
 ### Project Setup
 
-`Clone URL : https://github.com/trishant-kumar/vuetify3-boilerplate.git`
+`Clone URL : https://github.com/vue-simform/primeUI-vite-vue-ts-boilerplate.git`
 
 Clone repo using HTTP or SSH method.
 
 To use SSH method, please [Follow this tutorial](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 
-To use HTTP method, developer has to pass username in git clone url like this `https://{username}@github.com:trishant-kumar/vuetify3-boilerplate.git`
+To use HTTP method, developer has to pass username in git clone url like this `https://{username}@github.com:vue-simform/primeUI-vite-vue-ts-boilerplate.git`
 It will promte for application password that you can generate from [here](https://github.com/settings/tokens)
 
 run `npm i` command
